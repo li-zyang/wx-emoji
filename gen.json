@@ -1,0 +1,17 @@
+{
+  "source": "./src",
+  "override": false,
+  "sizes": [
+    { "width": 128, "destination": "./128" }, 
+    { "width": 96,  "destination": "./96"  }, 
+    { "width": 64,  "destination": "./64"  }, 
+    { "width": 32,  "destination": "./32"  }, 
+    { "width": 24,  "destination": "./24"  }, 
+    { "width": 20,  "destination": "./20"  }, 
+    { "width": 16,  "destination": "./16"  }, 
+    { "width": 12,  "destination": "./12"  }, 
+    { "width": 8,   "destination": "./8"   }
+  ],
+  "rooturl": "https://cdn.jsdelivr.net/gh/li-zyang/wx-emoji/",
+  "readme_template": "./README.template.py.md"
+}
